@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "character": "Jean",
+      "coolness" : 4,
+      "imageURL" : "https://genshin.honeyhunterworld.com/img/qin_003.webp"
+    },
+    {
+      "id": 2,
+      "character": "Lisa",
+      "coolness" : 5,
+      "imageURL" : "https://genshin.honeyhunterworld.com/img/lisa_006.webp"
+    },
+    {
+      "id": 3,
+      "character": "Amber",
+      "coolness": 3,
+      "imageURL" : "https://genshin.honeyhunterworld.com/img/ambor_021.webp"
+    }
+  ]

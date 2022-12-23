@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./styles.css">
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button><br/>
+    <button id="fortuneButton">Get Fortune</button>
+    <form>
+      <input 
+          type='text'
+          id="character-name"
+          placeholder="What's the character's name?"/>
+      <input 
+          type='text'
+          id="img"
+          placeholder='Paste an image URL'/>
+      <section id="coolness-container">
+          <p>Rate the character's coolness:</p>
+          <div id="radio-container">
+              <label for="one">
+                  <input
+                      type="radio"
+                      name="coolness"
+                      value="1"
+                      id="one"/>
+                  1
+              </label>
+              <label for="two">
+                  <input
+                      type="radio"
+                      name="coolness"
+                      value="2"
+                      id="two"/>
+                  2
+              </label>
+              <label for="three">
+                  <input
+                      type="radio"
+                      name="coolness"
+                      value="3"
+                      id="three"/>
+                  3
+              </label>
+              <label for="four">
+                  <input
+                      type="radio"
+                      name="coolness"
+                      value="4"
+                      id="four"/>
+                  4
+              </label>
+              <label for="five">
+                  <input
+                      type="radio"
+                      name="coolness"
+                      value="5"
+                      id="five"/>
+                  5
+              </label>
+          </div>
+      </section>
+      <button>add character</button>
+  </form>
+    <section id="character-container"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
