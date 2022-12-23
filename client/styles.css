@@ -14,3 +14,19 @@ form {
     padding: 10px;
 }
 
+.btns-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.char-coolness {
+    margin: 10px;
+}
+
+.filler-div {
+    width: 21px;
+    height: 24px;
+}
